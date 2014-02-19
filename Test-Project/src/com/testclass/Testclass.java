@@ -17,6 +17,8 @@ public class Testclass {
 		System.out.println(T1.mystr_name);
 		MySQLAccess dao = new MySQLAccess();
 		dao.readDataBase();
+		MySQLAccess dao1 = new MySQLAccess();
+		dao1.readDataBase();
 	}
 
 }
